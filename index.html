@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetaMark | Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+    <div class="container">
+        <div class="logo">
+            <a href="#">
+                <img src="assets/images/logo.jpg" alt="Logo" style="height: 30px; display: inline-block; vertical-align: middle; margin-right: 8px;">
+                MetaMark | Blog
+            </a>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <button id="theme-toggle" class="theme-toggle fancy-btn">
+                <i class="fas fa-sun"></i>
+            </button>
+        </div>
+    </div>
+</header>
+
+
+    <main class="main-content container">
+        <section class="blog-posts">
+            <div class="tabs">
+                <button class="tab-button active">Top Articles</button>
+                <button class="tab-button">Recently Published</button>
+            </div>
+
+            <div class="post-card">
+                <img src="assets/images/vscode.jpg" alt="Post thumbnail">
+                <div class="post-content">
+                    <span class="post-category">VScode</span>
+                    <h3>The 10 VSCode Extensions You Definitely Need As A Developer</h3>
+                    <p>It would help if you had these extensions to improve your productivity. Let me know if you like these...</p>
+                    <div class="post-meta">
+                        <span><i class="far fa-clock"></i> 5 min read</span>
+                        <span><i class="far fa-calendar-alt"></i> Nov 5, 2025</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-card">
+                <img src="assets/images/linux.jpg" alt="Post thumbnail">
+                <div class="post-content">
+                    <span class="post-category">Linux</span>
+                    <h3>50+ Linux Commands in Linux That Will Make You Feel Like a Pro</h3>
+                    <p>If you have the basic commands to work in the terminal, you're fine. But...</p>
+                    <div class="post-meta">
+                        <span><i class="far fa-clock"></i> 7 min read</span>
+                        <span><i class="far fa-calendar-alt"></i> Nov 1, 2025</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-card">
+                <img src="assets/images/java.jpg" alt="Post thumbnail">
+                <div class="post-content">
+                    <span class="post-category">JavaScript</span>
+                    <h3>10 JavaScript Tips to Improve Your Webpage Performance</h3>
+                    <p>It would help if you had these extensions to make your productivity and your...</p>
+                    <div class="post-meta">
+                        <span><i class="far fa-clock"></i> 6 min read</span>
+                        <span><i class="far fa-calendar-alt"></i> Oct 29, 2025</span>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <aside class="sidebar">
+            <div class="author-card">
+                <img src="assets/images/author.jpg" alt="Author photo">
+                <h4>Mark Vassilevsky</h4>
+                <p>I'm a self-taught web developer and technical writer.</p>
+            </div>
+
+            <div class="top-categories">
+                <h4>TOP CATEGORIES</h4>
+                <div class="categories-list">
+                    <span>Coding</span>
+                    <span>NFT</span>
+                    <span>Web 3.0</span>
+                    <span>Crypto</span>
+                    <span>Design</span>
+                </div>
+            </div>
+            
+            <div class="newsletter-sidebar">
+                <h4>Me In Social</h4>
+                <div class="social-links-vertical">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <section class="newsletter-banner">
+        <div class="container">
+            <div class="newsletter-content">
+                <h3>Subscribe to my newsletter so you won't miss a single awesome post!</h3>
+                <p>My goal is to give you a content that you want. Please subscribe to my blog and be notified when I publish my new article.</p>
+                <form action="#" class="newsletter-form">
+                    <input type="email" placeholder="Your email address">
+                    <button class="subscribe-btn fancy-btn">
+                      Subscribe
+                    </button>
+                </form>
+            </div>
+            <div class="newsletter-image">
+                <img src="assets/images/newsletter.jpg" alt="Cute dog with newsletter image">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-column">
+                <h4>My Projects</h4>
+                <ul>
+                    <li><a href="#">MetaMark</a></li>
+                    <li><a href="#">Abstract Inc.</a></li>
+                    <li><a href="#">Mineshore</a></li>
+                    <li><a href="#">Abstract Academy</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="#">Share your ideas</a></li>
+                    <li><a href="#">Join the Team</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Service</h4>
+                <ul>
+                    <li><a href="#">Order a Design</a></li>
+                    <li><a href="#">Order an Article</a></li>
+                    <li><a href="#">Developing</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <div class="logo">
+                <a href="#">MetaMark</a>
+            </div>
+            <div class="copyright">
+                <p>&copy; All Rights Are Reserved</p>
+            </div>
+            <div class="footer-lang">
+                <span>EE</span>
+                <span>UA</span>
+                <span>DE</span>
+                <span>FR</span>
+                <span>RU</span>
+                <span>EN</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
